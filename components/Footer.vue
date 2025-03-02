@@ -75,6 +75,7 @@ function redirectTo(url) {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: #22282F;
 }
 .footer_container {
     width: 90%;

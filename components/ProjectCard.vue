@@ -32,7 +32,7 @@ const navigateToProject = () => {
 .project-card {
     /* border: 1px solid red; */
     height: 620px;
-    width: 480px;
+    width: 500px;
     background-color: #2d343f;
     border-radius: 30px;
     display: flex;
@@ -100,6 +100,12 @@ const navigateToProject = () => {
 .project-card:hover .card-image {
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
+}
+@media (min-width: 1800px) {
+    .project-card {
+        width: 600px;
+        height: 700px;
+    }
 }
 </style>
 

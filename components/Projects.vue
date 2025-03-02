@@ -38,6 +38,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.project_container_description {
+    margin-bottom: 10%;
+}
 .projects_bar {
     display: block;
     background: white;
@@ -57,5 +60,16 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+}
+@media (min-width: 1800px) {
+    .projects-container {
+        width: 70%;
+    }
+    .project_container_left {
+        width: 40%;
+    }
+    .project_container_right {
+        width: 60%;
+    }
 }
 </style>

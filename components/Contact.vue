@@ -58,7 +58,6 @@
 
 <style scoped>
 .contact {
-    background: #22282F;
     align-content: center;
     height: 80vh;
 }
